@@ -87,3 +87,29 @@ body {
 .posts {
     grid-area: posts;
 }
+
+.post-card {
+    background-color: lightgray;
+    padding: 1em;
+    border: 2px solid cornflowerblue;
+    border-radius: 25px;
+    margin-bottom: 1vh;
+}
+
+.post-card > p {
+    margin: 2vh 0;
+}
+
+.post-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.post-links > a {
+    color: black;
+    text-decoration: none;
+}
+
+.post-links > a:hover {
+    text-decoration: underline;
+}
