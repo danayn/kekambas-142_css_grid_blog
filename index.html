@@ -11,7 +11,7 @@
     <!-- Create a div to be the container of our CSS Grid -->
     <div class="grid-container">
         <!-- Create the grid items (aka the direct children of grid-container) -->
-        <div class="nav area-border">
+        <div class="nav">
             <!-- div.nav-links will be a flexbox -->
             <div class="nav-links">
                 <a href="#">Home</a>
@@ -21,12 +21,26 @@
                 <a href="#">Sign Up</a>
             </div>
         </div>
-        <div class="prof-pic area-border">
+        <div class="prof-pic">
             <div class="img-container">
                 <img src="https://picsum.photos/500" alt="Profile Picture" id="prof-img">
             </div>
         </div>
-        <div class="prof-info area-border">Profile Info Goes Here</div>
+        <div class="prof-info">
+            <!-- A flexbox container for the info -->
+            <div class="info-container">
+                <!-- Name Header -->
+                <h2>Brian Stanton</h2>
+                <!-- About Me -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut incidunt, doloremque fugiat odio obcaecati aperiam, cumque optio laudantium, voluptatibus vel nemo temporibus eius et quo vero necessitatibus itaque corporis magni!</p>
+                <!-- Contact Info -->
+                <div class="contact">
+                    <p><b>Email: </b>brians@codingtemple.com</p>
+                    <p><b>Phone: </b>(555) 555-4321</p>
+                    <p><b>GitHub: </b>bstanton773</p>
+                </div>
+            </div>
+        </div>
         <div class="posts area-border">Posts Go Here</div>
     </div>
 
