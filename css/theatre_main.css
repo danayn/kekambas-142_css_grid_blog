@@ -6,6 +6,13 @@
 body {
     background-color: white;
 }
+#back_img{
+    background-image: url(background.png);
+    padding: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
 .grid-container {
     min-height: 100vh;
@@ -75,6 +82,7 @@ body {
     flex-direction: column;
     justify-content: center;
     margin: auto;
+    
 }
 
 #prof-img {
